@@ -72,18 +72,19 @@ body {
     border-radius: 8px;
     background-color: #ffffff;
     display: flex;
-    align-items: center;
+    align-items: center;    
 }
 .glass {
     margin-left: 20px;
     margin-right: 16px
 }
-.frame {
+
+.frame input{
     border: none;
     font-weight: 400;
     font-size: 16px;
     width: 100%;
-    font-family: "Poppins",sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 /* end sec1 */
@@ -93,12 +94,17 @@ body {
     height: 100px;
 }
 .section2 {
+    display: flex;
+    flex-direction: column;
     background-color: #ffffff;
     border-radius: 10px;
     width: 100%;
 }
 .box {
+    display: flex;
+    flex-direction: column;
     padding: 32px 32px 71px; 
+    gap: 30px
 }
 .box1 {
     display: flex;
@@ -135,8 +141,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 30px;
-    margin-bottom: 32px;
     gap: 32px;
 }
 .divide-box2 {
