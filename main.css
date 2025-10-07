@@ -13,6 +13,9 @@ body {
     width: 78px;
     height: 100%;
     padding-top: 159px;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
 }
 
 .active {
@@ -58,10 +61,10 @@ body {
     margin-top: 12px;
 }
 .sec1-search {
-    width: 498px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 20px
 }
 .inner-sec1-search {
     width: 354px;
@@ -80,10 +83,9 @@ body {
     font-weight: 400;
     font-size: 16px;
     width: 100%;
+    font-family: "Poppins",sans-serif;
 }
-.bell {
-    margin: 0 20px;
-}
+
 /* end sec1 */
 
 .makecolor {
@@ -141,7 +143,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 25px;
-    width: 50%;
+    width: 100%;
 }
 .inner-box2-text {
     font-weight: 400;
